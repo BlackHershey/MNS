@@ -5,6 +5,9 @@
 
 # PsychoPy
 data/
+MNS-stim.py
+MNS-stim_lastrun.py
+MNS-stim_session_settings.csv
 
 # Node artifact files
 node_modules/
@@ -58,7 +61,6 @@ Thumbs.db
 .vscode
 
 # Data
-data/
 sourcedata/
 
 # Testing
