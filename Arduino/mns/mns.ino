@@ -126,6 +126,10 @@ void setup() {
   sumDelays10Hz = 0.0;
   for ( i = 0; i < numArrhythmicPulses10Hz-1; i++ ){
     sumDelays10Hz += tPause10Hz[i];
+    // Serial.print("10Hz,");
+    // Serial.print(i);
+    // Serial.print(",");
+    // Serial.println(tPause10Hz[i], 6);
   }
   Serial.print("sum(tPause10Hz) after removing less than 0.01s = ");
   Serial.println(sumDelays10Hz, 6);
@@ -189,6 +193,10 @@ void setup() {
   sumDelays12Hz = 0.0;
   for ( i = 0; i < numArrhythmicPulses12Hz-1; i++ ){
     sumDelays12Hz += tPause12Hz[i];
+    // Serial.print("12Hz,");
+    // Serial.print(i);
+    // Serial.print(",");
+    // Serial.println(tPause12Hz[i], 6);
   }
   Serial.print("sum(tPause12Hz) after removing less than 0.01s = ");
   Serial.println(sumDelays12Hz, 6);
